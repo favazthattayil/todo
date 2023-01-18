@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+
+  
+
+.outbox{
+    background-color: rgb(96, 143, 135);
+    width: 600px;
+    height:auto;
+    border-radius: 8px;
+    margin-top: 80px;
+    box-shadow: 8px 9px 17px #000000; 
+    position: absolute;
+    top: 0px;
+ 
+}
+
+.heading{
+    color: aliceblue;
+    text-align: center;
+    padding: 30px;
+
+}
+
+.textbox{
+    min-height: 45px;
+    width: 450px;
+    border-radius: 6px;
+    margin: 40px;
+    padding: 10px;
+    box-shadow: 8px 9px 15px #000000;
+
+}
+
+
+
+li{
+    width: 450px;
+    
+    height: auto;
+    background-color:rgb(215, 220, 224);
+    border-radius: 6px;
+    display: flex;
+    padding: 10px;
+    color: black;
+    margin-left: 40px;
+   
+    
+} 
+li:hover{
+    box-shadow:8px 9px 41px #000000; 
+    width: 460px;
+}
+.delet{
+   
+    font-size: 20px;
+    border: none;
+    position: relative;
+    left: 530px;
+    bottom: 45px;
+    background: none;
+
+}
+.delet:hover{
+    font-size: 18px;
+    color: rgb(218, 15, 15);
+    cursor: pointer;
+}
+.add{
+   
+    background: none;
+    position: relative;
+    left: 530px;
+    bottom: 72px;
+    font-size: 26px;
+    cursor: pointer;
+
+    
+}
+
+
+.value{
+    height: 40px;
+    width: fit-content;
+}
+
+
+.add:hover{
+    font-size: 28px;
+    color: rgb(22, 124, 192);
+}
+ul{
+    padding: 0,10px,0,10px;
+    width: 40px;
+    
+    
+}
+
+
+.all{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aquamarine;
+}
+.checkbox{
+    position:relative;
+    left: 510px;
+    bottom: 45px;
+    font-size: 55px;
+    width: 20px;
+    height: 20px;
+   
+}
+.mm{
+    background-color: aquamarine;
+    position:relative;
+    top: 700px;
+}
+
+
+
